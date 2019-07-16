@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-UK" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="/main.77bb5cfd.css">
+
+
+    <!--GOOGLE TYPEFACE-->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet">
+    <!--FONT AWESOME STYLE SHEET-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+
+    <!-- Add a favicon -->
+		<link rel="icon" type="image/x-icon" href="/favicon.e393e45f.ico">
+		<link rel="icon" type="image/x-icon" href="/android-chrome-512x512.7699a3d3.png">
+		<link rel="icon" type="image/x-icon" href="/android-chrome-192x192.9bb39552.png">
+		<link rel="icon" type="image/x-icon" href="/apple-touch-icon.ae43d7ad.png">
+		<link rel="icon" type="image/x-icon" href="/favicon-32x32.02559297.png">
+		<link rel="icon" type="image/x-icon" href="/favicon-16x16.6fae3e72.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.e393e45f.ico">
+
+    <title> Breasha's Portfolio </title>
+  <script src="/main.77bb5cfd.js"></script></head>
+  <body class="home"> <!--menu-active-->
+
+    <!--MENU INFORMATION SECTION-->
+
+    <nav id="overlay">
+      <div class="close-btn grow"><i class="fas fa-times" aria-hidden="true" onclick="myFunctionTwo()"></i></div>
+     <ul>
+       <li> <a href="/index.html">Home</a>
+         <span>Get a brief overview of who I am</span>
+       </li>
+       <li> <a href="/about.html">About</a>
+        <span>Learn about my experiences</span>
+       </li>
+       <li> <a href="/portfolio.html">Portfolio</a>
+         <span>Dive into my collection of projects</span>
+       </li>
+       <li> <a href="/contact.html">Contact</a>
+         <span>Like what you've seen, let's connect!</span>
+       </li>
+     </ul>
+    </nav> <!--END OF MENU-->
+
+    <div class="circle2">
+      <!--IMAGE LOGO-->
+      <div><img class="img-fluid logo" src="/BreashaLogo.20d4d605.png" alt="Logo" title="Home">
+      </div>
+
+  </div><!--END OF CIRCLE-->
+
+    <div class="circle1">
+    <section class"contact-info"="">
+      <div class="my-info">
+
+        <h4>Phone</h4>
+        <p>1-234-5678</p>
+        <h4>Email</h4>
+        <p>breashab@parceque.com</p>
+        <h4>Find Me On</h4>
+        <div class="icon-area">
+          <a href="#">
+            <i><i class="fab fa-facebook-square"></i></i>
+          </a>
+          <a href="#">
+          <i><i class="fab fa-twitter-square"></i></i>
+          </a>
+          <a href="#">
+          <i><i class="fab fa-instagram"></i></i>
+          </a>
+          <a href="#">
+          <i><i class="fab fa-youtube"></i></i>
+          </a>
+        </div><!--END OF ICON-AREA DIV-->
+    </div> <!--  END OF MY-INFO DIV-->
+
+    </section> <!--END OF INFO SECTION-->
+  </div><!--END OF CIRCLE1 DIV-->
+
+    <section class="content-area">
+
+      <!--MENU-->
+        <i class="fas fa-bars menu-btn" aria-hidden="true" onclick="myFunction()"></i>
+
+
+    <!--  <div class="img-container"> -->
+<!--<div class="center-img"></div>
+<img width="35%" height="20%" class="img-fluid" src="scss/Breasha.png"
+  alt="Logo" style="float:left;" title="Home">
+-->
+     <!--</div>END OF IMG CONTAINER-->
+      <div class="my-descr-section">
+
+        <!--CENTERED IMAGE-->
+         <div class="center-img"></div>
+
+        <!--NAME AREA-->
+        <div class="my-descr">
+        <h1><span class="pinkTitle">Breasha</span><br>Brodéur</h1>
+
+        <!--DESCRIPTION AREA-->
+        <h5> Content Manager - ParceQue Inc.</h5>
+        <p>
+          Salut! I'm a big fan of engaging content, so much so that
+          I've learnt to create them myself. The source of my inspiration
+          springs from my home town of Nice in the south of France.
+        </p>
+
+        <!--BUTTONS AREA-->
+        <a href="/portfolio.html" class="active-btn pulse-button">Portfolio</a>
+        <a href="/about.html" class="inactive-btn">Résumé</a>
+
+
+      </div> <!--END OF MY-DESCR DIV-->
+     </div><!--END OF MY-DESCR-SECTION DIV-->
+    </section> <!--END OF CONTENT AREA SECTION-->
+
+
+
+    <!--Import script files FOR MENU-->
+    <script>function myFunction() {
+  var overlay = document.getElementById("overlay");
+
+  if (overlay.style.display === "none") {
+    overlay.style.display = "block";
+  } else {
+    overlay.style.display = "none";
+  }
+}</script>
+
+    <script>function myFunctionTwo() {
+  var overlay = document.getElementById("overlay");
+
+  if (overlay.style.display === "block") {
+    overlay.style.display = "none";
+  } else {
+    overlay.style.display = "block";
+  }
+}</script>
+<!--
+    <script>
+    var overlay = document.getElementbyId('overlay');
+    var closeMenu = document.getElementbyId('close-menu');
+
+    document.getElementbyId('open-menu').addEventListener("click",function(){
+        overlay.classlist.add('show-menu');
+    });
+
+    document.getElementbyId('close-menu').addEventListener("click",function(){
+      overlay.classlist.remove('show-menu');
+    });
+    </script>
+-->
+  </body>
+</html>
